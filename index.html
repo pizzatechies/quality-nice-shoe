@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hatua Shoes · Dubai Merchants Mall, Shop F44, Nairobi</title>
+  <meta name="description" content="Quality sneakers, official shoes, heels and sandals in Nairobi. Visit us at Dubai Merchants Mall, Shop F44, or order online and pay with M-Pesa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">Free delivery within Nairobi CBD on orders over KSh 5,000 · Pay with M-Pesa</div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo"><span class="logo-mark">H</span><span data-config="shopName">Hatua Shoes</span></a>
+      <nav class="nav" id="nav">
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 2H2"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Nairobi's shoe stop · Shop F44</p>
+        <h1>Step out in style.<br><span>Every step, every day.</span></h1>
+        <p class="lead">Sneakers, official shoes, heels, sandals and kids' shoes at fair prices. Shop online and pay with M-Pesa, or walk into our shop at <strong>Dubai Merchants Mall, Shop F44</strong>.</p>
+        <div class="hero-cta">
+          <a href="#shop" class="btn btn-primary">Shop now</a>
+          <a href="#visit" class="btn btn-ghost">Find our shop</a>
+        </div>
+        <ul class="hero-badges">
+          <li>✔ Original & quality</li>
+          <li>✔ Sizes 25 – 46</li>
+          <li>✔ Countrywide delivery</li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-circle"></div>
+        <div class="hero-shoe" id="heroShoe"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="shop" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Shop our collection</h2>
+        <div class="search-wrap">
+          <input type="search" id="search" placeholder="Search shoes…" aria-label="Search shoes">
+          <select id="sort" aria-label="Sort">
+            <option value="featured">Featured</option>
+            <option value="low">Price: low to high</option>
+            <option value="high">Price: high to low</option>
+          </select>
+        </div>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="grid" id="products"></div>
+      <p class="empty" id="empty" hidden>No shoes match your search.</p>
+    </div>
+  </section>
+
+  <section class="perks">
+    <div class="container perks-grid">
+      <div><span>🚚</span><h3>Fast delivery</h3><p>Same-day in Nairobi, 1–3 days countrywide via courier.</p></div>
+      <div><span>📱</span><h3>Pay with M-Pesa</h3><p>Lipa na M-Pesa or pay on delivery within Nairobi.</p></div>
+      <div><span>🔁</span><h3>Easy exchange</h3><p>Wrong size? Exchange within 7 days, unworn with receipt.</p></div>
+      <div><span>⭐</span><h3>Quality first</h3><p>Every pair checked before it leaves the shop.</p></div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div>
+        <h2>About us</h2>
+        <p>We are a Nairobi shoe shop serving men, women and kids from our store on the first floor of <strong>Dubai Merchants Mall</strong>. From school shoes to wedding heels to the latest sneakers, we stock shoes that look good, last long and fit your budget.</p>
+        <p>Can't find your size or style? Send us a photo on WhatsApp and we'll source it for you.</p>
+      </div>
+      <div class="stats">
+        <div><strong>500+</strong><span>Styles in stock</span></div>
+        <div><strong>47</strong><span>Counties delivered</span></div>
+        <div><strong>4.8★</strong><span>Customer rating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit" class="section visit">
+    <div class="container visit-grid">
+      <div class="visit-info">
+        <h2>Visit our shop</h2>
+        <div class="address-card">
+          <p class="addr-big">Dubai Merchants Mall<br><span>Shop F44, First Floor</span></p>
+          <p>Nairobi CBD, Kenya</p>
+          <h4>Opening hours</h4>
+          <ul class="hours">
+            <li><span>Monday – Saturday</span><span>8:00 am – 7:30 pm</span></li>
+            <li><span>Sunday</span><span>10:00 am – 5:00 pm</span></li>
+            <li><span>Public holidays</span><span>10:00 am – 4:00 pm</span></li>
+          </ul>
+          <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Dubai+Merchants+Mall+Nairobi">Get directions</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe title="Map to Dubai Merchants Mall, Nairobi" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Dubai+Merchants+Mall+Nairobi&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container contact-grid">
+      <div>
+        <h2>Talk to us</h2>
+        <p>Ask about sizes, colours or delivery. We reply fast on WhatsApp.</p>
+        <ul class="contact-list">
+          <li>📞 <a data-config-href="tel" href="#"><span data-config="phoneDisplay"></span></a></li>
+          <li>💬 <a data-config-href="whatsapp" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a></li>
+          <li>✉️ <a data-config-href="email" href="#"><span data-config="email"></span></a></li>
+          <li>📍 Dubai Merchants Mall, Shop F44, Nairobi</li>
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Your name<input name="name" required></label>
+        <label>Phone number<input name="phone" type="tel" placeholder="07XX XXX XXX" required></label>
+        <label>Message<textarea name="message" rows="4" placeholder="e.g. Do you have the white sneakers in size 42?" required></textarea></label>
+        <button class="btn btn-primary" type="submit">Send via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> <span data-config="shopName">Hatua Shoes</span> · Dubai Merchants Mall, Shop F44, Nairobi</p>
+      <p>Lipa na M-Pesa Till: <strong data-config="mpesaTill"></strong></p>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-config-href="whatsapp" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7a10.7 10.7 0 0 1-5.5-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.9 1 3.9.8a3.3 3.3 0 0 0 2.2-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.6-.5z"/></svg>
+  </a>
+
+  <!-- Cart drawer -->
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-head">
+      <h3>Your cart</h3>
+      <button class="icon-btn" id="closeCart" aria-label="Close cart">✕</button>
+    </div>
+    <div class="drawer-body" id="cartItems"></div>
+    <div class="drawer-foot" id="cartFoot">
+      <div class="totals">
+        <div><span>Subtotal</span><span id="subtotal">KSh 0</span></div>
+        <div><span>Delivery</span><span id="delivery">—</span></div>
+        <div class="grand"><span>Total</span><span id="total">KSh 0</span></div>
+      </div>
+      <form id="checkoutForm" class="checkout">
+        <input name="name" placeholder="Full name" required>
+        <input name="phone" type="tel" placeholder="M-Pesa phone e.g. 0712 345 678" pattern="^(\+?254|0)[17]\d{8}$" title="Enter a valid Kenyan number e.g. 0712345678" required>
+        <select name="option" id="deliveryOption" required>
+          <option value="pickup">Pick up at Shop F44 (free)</option>
+          <option value="nairobi">Delivery within Nairobi</option>
+          <option value="upcountry">Delivery outside Nairobi</option>
+        </select>
+        <input name="location" id="locationInput" placeholder="Delivery location / town" hidden>
+        <button class="btn btn-primary btn-block" type="submit">Order on WhatsApp</button>
+        <p class="pay-note">Pay via Lipa na M-Pesa Till <strong data-config="mpesaTill"></strong> or on pickup.</p>
+      </form>
+    </div>
+  </aside>
+
+  <!-- Product modal -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="icon-btn modal-close" id="closeModal" aria-label="Close">✕</button>
+      <div class="modal-img" id="modalImg"></div>
+      <div class="modal-info">
+        <p class="tag" id="modalCat"></p>
+        <h3 id="modalTitle"></h3>
+        <p class="price" id="modalPrice"></p>
+        <p id="modalDesc"></p>
+        <p class="label">Choose size (EU)</p>
+        <div class="sizes" id="modalSizes"></div>
+        <p class="size-error" id="sizeError" hidden>Please pick a size.</p>
+        <button class="btn btn-primary btn-block" id="addToCart">Add to cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
