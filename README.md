@@ -1,4 +1,4 @@
-# Hatua Shoes – online shoe shop
+# Quality Nice Shoes – online shoe shop
 
 Static website for a shoe shop at **Dubai Merchants Mall, Shop F44, Nairobi**.
 
@@ -15,3 +15,8 @@ Open `app.js`:
 
 ## Run
 No build step. Open `index.html` in a browser, or host the folder on GitHub Pages, Netlify or any static host.
+
+## Photos
+Each product has an `img` field. It holds an Unsplash stock photo id for now.
+To use your own photos, put them in an `images/` folder and set e.g. `img: "images/street-runner.jpg"`.
+If a photo can't load, the site shows a drawing of the shoe instead.
